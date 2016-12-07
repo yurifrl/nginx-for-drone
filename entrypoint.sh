@@ -116,6 +116,10 @@ fi
     rm -rf /etc/letsencrypt/{live,archive,keys,renewal}
 
    echo "letsencrypt certonly "${letscmd}" \
+    --text -vvvvvv \
+    --quiet \
+    --noninteractive \
+    --non-interactive \
     --standalone \
     "${SERVER}" \
     --email "${EMAIL}" --agree-tos \

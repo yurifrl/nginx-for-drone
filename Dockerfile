@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER Fabio Rapposelli <fabio@rapposelli.org>
+MAINTAINER Yuri Freire Lima <yurifrl@outlook.com>
 
 #We need to install bash to easily handle arrays
 # in the entrypoint.sh script
