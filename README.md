@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/image/yurifl/nginx-for-drone.svg)](https://microbadger.com/images/yurifl/nginx-for-drone
+"Get your own image badge on microbadger.com")
+
 # Drone Proxy
 
 Put browser-valid TLS termination in front of Drone Server with one command.
